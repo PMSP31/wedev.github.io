@@ -1,15 +1,15 @@
 body {
   margin: 0;
-  background-color: black; 
+  background-color: black;
 }
 .navbar {
   background-color: black;
-  padding: 10px 100px;
 }
 
-.jumbotron{
+.jumbotron {
   text-align: center;
   background-color: white;
+  padding-top: 3rem;
 }
 
 .bg-cover {
@@ -17,4 +17,13 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+section {
+  padding-top: 3rem;
+}
+footer {
+  text-align: center;
+  margin-top: 100px;
+  background-color: white;
+  padding: 20px;
 }
