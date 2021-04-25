@@ -31,22 +31,13 @@
               <a class="nav-link active" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a id="abt" class="nav-link" href="#wht">About Us</a>
+              <a class="nav-link" href="#wht">About Us</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Courses </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#courses">Front-End Developer</a>
-                <a class="dropdown-item" href="#courses">Back-End Developer</a>
-                <a class="dropdown-item" href="#courses">App Developer</a>
-              </div>
+            <li class="nav-item">
+              <a class="nav-link" href="#courses"> Courses </a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> F.A.Q </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a id="social" class="dropdown-item" href="mailto:pmsp3108@gmail.com">Gmail</a>
-                <a id="social" class="dropdown-item" href="https://github.com/PMSP31">Github</a>
-              </div>
+            <li class="nav-item">
+              <a class="nav-link btn btn-primary text-white" href="#frm"> Sign In </a>
             </li>
           </ul>
         </div>
@@ -54,9 +45,9 @@
     </nav>
     <!--Nav end-->
     <!--Jumbotron1-->
-    <section class="container">
-      <div class="jumbotron mt-4" data-aos="zoom-in">
-        <div class="jumbotron bg-cover text-white" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 1) 100%), url(./images/top1.jpg)">
+    <section style="padding-bottom: 10px">
+      <div class="jumbotron mt-4 container text-white" data-aos="zoom-in">
+        <div class="jumbotron bg-cover" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 1) 100%), url(./images/top1.jpg)">
           <h1 class="display-4"><strong>WeDev-!D</strong></h1>
           <p class="lead">A place where you can learn to be a creative and hard-working developer.</p>
           <hr class="my-4" data-aos="zoom-in" data-aos-duration="2000" style="background-color: white" />
@@ -69,7 +60,7 @@
     </section>
     <!--Jumbotron1 end-->
     <!--Jumbotron2-->
-    <section id="wht" data-spy="scroll" data-target="#abt" data-offset="0">
+    <section id="wht" data-spy="scroll" data-target="#abt" data-offset="0" style="padding-bottom: 50px">
       <div class="container" data-aos="fade-right">
         <div class="jumbotron text-left mt-5">
           <h1 class="display-4">What Is WeDev-!D??</h1>
@@ -136,11 +127,11 @@
     </section>
     <!--card end-->
     <!--form-->
-    <section id="frm" data-spy="scroll" data-target="#btn" data-offset="0">
-      <div class="container mt-5" data-aos="fade-left">
-        <h1 class="text-white">Register</h1>
+    <section id="frm" data-spy="scroll" data-target="#btn" data-offset="0" style="padding-bottom: 100px">
+      <div class="container mt-5 text-white" data-aos="fade-left">
+        <h1>Register</h1>
         <hr style="background-color: white" data-aos="zoom-in" data-aos-duration="1000" />
-        <form class="mt-5 text-white">
+        <form class="mt-5" action="mailto:pmsp3108@gmail.com" method="GET">
           <div class="form-group row">
             <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
             <div class="col-sm-10">
@@ -155,7 +146,7 @@
           </div>
           <fieldset class="form-group">
             <div class="row">
-              <legend class="col-form-label col-sm-2 pt-0">Course</legend>
+              <legend class="col-form-label col-sm-2 pt-0">Courses</legend>
               <div class="col-sm-10">
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked />
@@ -185,7 +176,7 @@
     <!-- Footer -->
     <footer>
       <div class="container">
-        <p>copyright by &copy;<strong> WeDev-!D</strong> 2021</p>
+        <p>copyright &copy; 2021<strong> WeDev-!D</strong></p>
       </div>
     </footer>
     <!-- Footer End -->
